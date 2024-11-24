@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Halaman Informasi</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+      <div class="container">
+        <a class="navbar-brand" href="#">Perusahaan Kami</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="informasi.html"
+                >Informasi</a
+              >
+            </li>
+          </ul>
+          <div class="d-flex">
+            <a href="login.html" class="btn btn-primary me-2">Login</a>
+            <a href="registrasi.html" class="btn btn-secondary">Registrasi</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Konten Halaman -->
+    <div class="container mt-5">
+      <h1 class="text-center">Halaman Informasi</h1>
+      <p class="text-center">Berisi daftar informasi perusahaan kami.</p>
+
+      <!-- Daftar Informasi -->
+      <div class="list-group">
+        <a
+          href="detail_informasi.html?id=1"
+          class="list-group-item list-group-item-action"
+        >
+          Informasi 1: Profil Perusahaan
+        </a>
+        <a
+          href="detail_informasi.html?id=2"
+          class="list-group-item list-group-item-action"
+        >
+          Informasi 2: Visi dan Misi
+        </a>
+        <a
+          href="detail_informasi.html?id=3"
+          class="list-group-item list-group-item-action"
+        >
+          Informasi 3: Layanan Kami
+        </a>
+        <a
+          href="detail_informasi.html?id=4"
+          class="list-group-item list-group-item-action"
+        >
+          Informasi 4: Kontak Perusahaan
+        </a>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center py-3 mt-5">
+      Copyright by NIM_NAMA MAHASISWA_KELAS
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
