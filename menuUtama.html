@@ -3,40 +3,105 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Menu Utama</title>
+    <title>Halaman Utama</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Dashboard</a>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+      <div class="container">
+        <a class="navbar-brand" href="#">3-Office</a>
         <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Logout</a>
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <div class="container mt-4">
-      <h1 class="text-center">Selamat Datang</h1>
-      <p class="text-center">Halaman utama setelah login berhasil.</p>
+
+    <!-- Konten Halaman -->
+    <div class="container mt-1">
+      <section class="hero bg-primary text-white text-center py-5">
+        <div class="container">
+          <img src="./assets/image/8582551.jpg" width="500" height="400">
+          <h1 class="display-2"><font size="7">CAPEK MEMBERSIHKAN RUMAH KALIAN YANG SANGAT BESAR ITU?</font></h1>
+          <p class="lead">KAMI SOLUSINYA</p>
+          <a href="#Kontak" class="btn btn-outline-light btn-lg mt-3"
+            >HUBUNGI KAMI DISINI</a
+          >
+        </div>
+      </section>
     </div>
-    <footer class="bg-light text-center py-3 mt-5">
-      Copyright by NIM_NAMA MAHASISWA_KELAS
+    <br>
+
+<!--Info Perusahaan-->
+<h1>Informasi Perusahaan</h1>
+<p class="text-justify"><font size="5">
+  Jangan biarkan rumah anda kotor dan bau! Dengan jasa kami kalian tidak perlu repot
+  untuk membersihkan rumah anda, disaat anda sedang sibuk dan tidak punya waktu untuk
+  membersihkan rumah, kami siap membantu membersihkan rumah anda.
+</p></font>
+<br>
+
+<!--Visi Misi Perusahaan-->
+<h1>Visi Misi Perusahaan</h1>
+<p class="text-justify"><font size="5">
+ Visi kami : Menjadi cleaning service terbaik sepanjang masa <br>
+ Misi kami : Memberikan pelayanan terbaik kepada pelanggan kami
+</p></font>
+<br>
+
+<!--layanan kami-->
+<h1>layanan kami</h1>
+<p class="text-justify"><font size="5">
+ Kami menawarkan berbagai macam layanan seperti membersihkan kantor, membersihkan gudang, membersihkan rooftop,
+ dan jasa membersihkan lainnya.
+</p></font>
+
+<!--kontak perusahaan-->
+<section id="Kontak" class="py-5">
+  <div class="row">
+    <h1 class="display-2 text-center"><font size="4">Hubungi kami melalui email di info@perusahaan.com atau telepon di (021) 123-4567.</font></h1>
+  </div>
+</section>
+
+    <!-- Footer -->
+    <footer id="sticky-footer" class="flex-shrink-0 py-4 bg-dark text-white-50">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-start" style="max-width: 500px; margin: 0 auto;">
+          <!-- Kiri: Copyright -->
+          <div>
+            <small>Copyright &copy; 2024. All rights reserved.</small>
+          </div>
+          <!-- Kanan: Nama -->
+          <div class="text-endx">
+            <small>
+              22552011131 Adi Mulyadi.<br>
+              22552011169 Rama Triehadi.<br>
+              22552011169 Raka Puteraku Dermawan.
+            </small>
+          </div>
+        </div>
+      </div>
     </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
